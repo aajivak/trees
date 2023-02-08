@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(249, 255, 207, 0.93);
+    font-family: 'Righteous', sans-serif;
+    font-size: 17px;
+    transition-timing-function: ease-in-out;
+    transition: 0.3s;
+    position: relative;
+}
+
+li {
+    list-style: none;
+    display: inline-flex;
+}
+
+header {
+    background-color: #0003;
+    width: 98vw;
+    text-align: center;
+    height: 4rem;
+}
+
+.header-d {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.2rem;
+    margin-top: -50rem;
+}
+
+.navigation-list {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1.2rem;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.login-btn {
+    font-family: 'Righteous', sans-serif;
+    font-size: 17px;
+    height: 2.2rem;
+    width: 4.5rem;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+    background-color: #7d801080;
+    border: 2.3px solid;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.background-image {
+    height: auto;
+    width: 100%;
+}
+
+.logo-d {
+    display: inline-flex;
+}

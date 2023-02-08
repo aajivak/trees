@@ -1,0 +1,13 @@
+a:hover{
+    font-size: 20px;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+    position: static;
+    color: chartreuse;
+}
+
+.navigation-list:hover{
+    border-bottom: solid greenyellow;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+}
