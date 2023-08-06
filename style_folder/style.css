@@ -38,7 +38,7 @@ header {
     margin-left: 1vw;
     margin-right: 1vw;
     margin-top: 1.2rem;
-    transition: 1s;
+    transition: 0.3s;
     transition-timing-function: ease-in-out;
 }
 
@@ -53,6 +53,8 @@ header {
     border: 2.3px solid;
     border-radius: 10px;
     color: aliceblue;
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
 }
 
 .background-image {
@@ -62,4 +64,48 @@ header {
 
 .logo-d {
     display: inline-flex;
+}
+
+
+.site_small_info {
+    display: flex;
+    justify-content: start;
+    margin-left: 3vw;
+    margin-top: 7rem;
+    margin-right: 48vw;
+    background-color: azure;
+  }
+
+.small_info {
+    font-family: 'Righteous', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+.site_name {
+    font-size: 80px;
+    font-family: 'Righteous', sans-serif;
+    background-color: rgba(10, 32, 0, 0.397);
+    padding: 1rem;
+    padding-left: 3vw;
+    color: rgba(245, 222, 179, 0.836);
+}
+
+.site_name_d {
+    display: flex;
+    justify-content: left;
+    margin-top: 0rem;
+    height: 20rem;
+    width: 70vw;
+    padding-bottom: 11.3rem;
+}
+
+
+.container1{
+    width: 98vw;
+    background-color: aqua;
+    height: 2rem;
+    display: flex;
+    justify-content: center;   
+
 }
