@@ -103,9 +103,19 @@ header {
 
 .container1{
     width: 98vw;
-    background-color: aqua;
-    height: 2rem;
+    background-color: rgb(78, 19, 161);
+    height: 10rem;
     display: flex;
     justify-content: center;   
 
+}
+
+.sub_container{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 1rem;
 }
